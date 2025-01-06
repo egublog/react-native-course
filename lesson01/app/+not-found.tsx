@@ -4,6 +4,9 @@ import { StyleSheet } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
+/**
+ * Screen component for 404 Not Found.
+ */
 export default function NotFoundScreen() {
   return (
     <>
