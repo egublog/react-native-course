@@ -8,6 +8,11 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
+/**
+ * TabLayoutコンポーネントは、アプリのタブナビゲーションを定義します。
+ * 各タブには、ホーム画面と探索画面が含まれています。
+ * タブバーのスタイルやアイコン、背景などの設定も行います。
+ */
 export default function TabLayout() {
   const colorScheme = useColorScheme();
 
